@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BREEZY PASTRIES</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            
+        }
+        .narvbar{
+           /* color: darkred;*/
+            justify-content:space-between;
+            display: flex; 
+            list-style: none; 
+            background-color: #f1e7ed;
+            margin-bottom: 7px;
+            align-items: center;
+            padding: 7px ;
+           
+        
+        }
+        .but{
+            
+            cursor: pointer;
+            border: solid darkred;
+            background-color: transparent;
+            height: 20px;
+            width: 50px;
+            color: darkred;
+            font-size: small;
+            /*box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);*/
+        }
+        #logo{
+            float: left;
+            font-size: 18px;
+        }
+        .narvbar a{
+            color:#7e0f3a ;
+        }
+        .narvbar a:hover{
+            color: #f4cbf4;
+        }
+        .hii{
+            color: black;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            display: flex;
+            background-image:url("bg.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            border-radius: 10px;
+            flex-direction: column;
+            margin-bottom: 40px;
+            padding: 0 20px;
+            
+        }
+        .hii h1{
+            font-size: 48px;
+            margin-bottom: 20px;
+            font-style: italic;
+        }
+        .hii p{
+            font-size: 20px;
+            max-width: 600px;
+            margin-bottom: 30px;
+        }
+        .bey{
+            background-color:#976b53;
+            color: black;
+            border: none;
+            border-radius: 30px;
+            font-size: 18px;
+            cursor: pointer;
+
+        }
+        .bey:hover{
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="narvbar">
+       
+       <div id="logo"><img src="ALT.png" width="100" height="80"></div>
+
+        <li><a href="home.html">HOME</a></li> 
+        <li><a href="about us.html">ABOUT US</a></li>
+        <li><a href="services.html">SERVICES</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+        <li><button class="but"><li>search</li></button></li>
+        
+       
+    </div>
+    <div class="content">
+        <div class="hii">
+            <h1>Fresh Baked Goodness</h1>
+            <p>Indulge in our delicious selection of pastries, breads, and desserts made with the finest ingredients.</p>
+            <button class="bey">View Our Menu</button>
+        </div>
+        <div class="cad">
+            
+
+        </div>
+
+    </div>
+</body>
+</html>
